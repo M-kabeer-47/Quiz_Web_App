@@ -1,0 +1,29 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:  #051637;;
+
+}
+h1{
+    color: white;
+    font-weight: bold;
+    font-size: 56px;
+    
+}
+button{
+    padding-block: 1rem;
+    padding-inline: 3rem;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top:25px;
+    font-weight: 600;
+    background-color: #1f72f0;
+    color: #EAEEFF;;
+}
+button:hover{
+    border: 2px solid lightcyan;
+    transition: all 0.3s ease;
+}

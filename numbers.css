@@ -1,0 +1,126 @@
+body{
+    padding: 2rem;
+    margin: 0;
+    
+    font-family: 'Poppins',sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input-fields{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: fit-content;
+    gap:20px;
+    
+    padding: 1rem;
+    min-height: 250px;
+ 
+    
+}
+.title{
+margin-left: 209px;
+}
+.ID{
+margin-left: 249px;
+}
+textarea:focus {
+    outline: none;
+}
+
+.numbers-field{
+    display: flex;
+    justify-content: center;
+    background-color: #051637;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    min-width: fit-content;
+    gap:20px;
+    padding-block: 2rem;
+    padding-inline: 2rem;
+    min-height: 400px;
+    border: 3px solid #A8AABC;
+}
+.input{
+    display: flex;
+    gap:20px;
+    font-size: 2.21rem;
+    font-weight: 100;
+    color: #EAEEFF;
+
+    align-items: center;
+    width: 100%;
+
+    
+    
+    min-height: fit-content;
+
+}
+input{
+    padding: 10px;
+    padding-inline: 20px;
+    margin-right: 10px;
+    border: 2px solid black;
+    font-family: 'Poppins',sans-serif;
+    font-size: 17px;
+    
+}
+.btn{
+    
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px;
+    padding-inline: 10px;
+    background-color:#3A4269;;
+    align-self: center;
+    color: white;
+    box-shadow: none;
+    border: none;
+    cursor: pointer;
+    border: 1px solid black;
+}
+label{
+    font-weight: 500;
+}
+@media(max-width:710px){
+    
+    .title{
+        margin-left: 171px;
+
+    }
+    .ID{
+        margin-left: 198px;
+    }
+}
+@media (max-width:675px) {
+    body{
+        padding-inline: 3rem;
+    }
+    .input{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;    
+        padding-left: 10px;
+        font-size: 2rem;
+        gap:10px;
+    }
+    .title{
+        margin-left: 0px;
+
+    }
+    .ID{
+        margin-left: 0px
+    }
+}
+@media(max-width:400px){
+    input{
+        padding-inline: 0px;
+        max-width: 160px;
+    }
+    label{
+        text-align: center;
+    }
+}
